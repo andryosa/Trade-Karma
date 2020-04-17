@@ -1,0 +1,36 @@
+.nav{
+    top: 1vw;
+    width: 100vw;
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    z-index: 3;
+  }
+
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    font-size: large;
+    font-family: Helvetica;
+
+}
+
+.nav>a>img{
+    height: 40px;
+}
+
+a:nth-child(1):hover{
+    border: none;
+    margin: 20px;
+}
+
+a:hover{
+    color: gold;
+    border: gold 2px solid;
+    margin: 18px;
+    text-decoration: none;
+}
