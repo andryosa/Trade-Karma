@@ -1,5 +1,5 @@
 .nav{
-    top: 1vw;
+    top: 0.5%;
     width: 100vw;
     display: block;
     flex-direction: row;
@@ -8,29 +8,35 @@
     z-index: 3;
   }
 
-
-a{
+.nav-links{
+    display: flex;
+    justify-content: left;
+    align-items: center;
     text-decoration: none;
     color: white;
-    padding: 20px;
-    margin: 20px;
     font-size: large;
     font-family: Helvetica;
-
+    list-style: none;
+}
+.links{
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    border: rgba(255, 217, 0, 0) 2px solid;
+    transition-duration: 0.5s;
 }
 
-.nav>a>img{
+li>img{
     height: 40px;
 }
 
-a:nth-child(1):hover{
+li:nth-child(1):hover{
     border: none;
-    margin: 20px;
 }
 
-a:hover{
+.links:hover{
     color: gold;
     border: gold 2px solid;
-    margin: 18px;
     text-decoration: none;
+    transition-duration: 1s;
 }

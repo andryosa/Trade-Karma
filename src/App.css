@@ -8,6 +8,7 @@
 
 
 
+
 /* Body */
 .body{
   background-image: url(./background3.jpg);
@@ -52,7 +53,6 @@
   transition-duration: 1s;
 
 }
-
 
 .candle:hover{
   transform: scale(1.2);
